@@ -13,7 +13,7 @@
 <body>
 <!-- /springmvc-upload  -->
 
-<form action="/springmvc-upload/upload" method="post" enctype="multipart/form-data">
+<form action="/upload" method="post" enctype="multipart/form-data">
     请输入ip地址:
     <input type="text" name="iphost"> <br/><br/>
 

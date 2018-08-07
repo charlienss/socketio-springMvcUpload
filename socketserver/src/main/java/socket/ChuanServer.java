@@ -13,7 +13,7 @@ public class ChuanServer {
 
         ServerSocket serverSocket = new ServerSocket(port);
         while (true) {
-            Socket clientSocket = serverSocket.accept();
+            final Socket clientSocket = serverSocket.accept();
 
             new Thread() {
                 @Override

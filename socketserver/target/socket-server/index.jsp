@@ -5,7 +5,7 @@
 请设置端口号:
 <br/>
 <!--/socket-server-->
-<form action="/socket-server/port">
+<form action="/port">
     <input type="text" name="port" >
     <br/>
     <input type="submit" value="设定端口号">
