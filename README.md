@@ -2,9 +2,9 @@
 
 socketIo不仅可以用来做聊天工具,也可以实现局域网(当然你如果有外网也可用外网)内实现文件的上传和下载,下面是代码的效果演示:
 
-![](https://images2018.cnblogs.com/blog/1373932/201808/1373932-20180807224827256-1860653120.gif)
+![](https://images2018.cnblogs.com/blog/1373932/201808/1373932-20180807232151828-2141167808.gif)
 
-GIT地址:
+GIT地址: https://github.com/fengcharly/sockeio-springMvcUpload.git
 
 ## 部分代码如下:
 
@@ -208,8 +208,8 @@ public class UpServiceImpl  implements UpService {
 
 完整项目GIT地址:
 
-注意:
+注意: https://github.com/fengcharly/sockeio-springMvcUpload.git
 
 传输过程中的我们用的是系统提供的BufferedInputStream和BufferedOutputStream缓冲流来传输文件,相对而言传输小文件比较合适,大文件比较慢,可以进一步优化,传输过程中传输速度如下:
 
-![](https://images2018.cnblogs.com/blog/1373932/201808/1373932-20180807225943946-1809437969.gif)
+![](https://images2018.cnblogs.com/blog/1373932/201808/1373932-20180807232249184-1002900820.gif)
